@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="cobalt_blue">#243A96</color>
+    <color name="cobalt_blue_light">#E9EAF3</color>
+    <color name="cream_bg">#F6F0E4</color>
+    <color name="cream_card">#EFE6D7</color>
+
+    <color name="navy_dark">#1A3BCC</color>
+    <color name="navy_medium">#1A3BCC</color>
+    <color name="navy_light">#EEF1FB</color>
+    <color name="border_dark">#1A3BCC</color>
+
+    <color name="text_primary">#232323</color>
+    <color name="gray_text">#77736B</color>
+
+    <color name="accent_gold">#243A96</color>
+    <color name="green_complete">#52624D</color>
+</resources>

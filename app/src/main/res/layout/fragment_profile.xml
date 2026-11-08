@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="48dp"
+        android:paddingBottom="96dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/outfit"
+            android:text="Profile"
+            android:textColor="@color/cobalt_blue"
+            android:textSize="36sp"
+            android:letterSpacing="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="@font/outfit"
+            android:text="Your progress, coins, and avatar style"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_blue"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp">
+
+            <FrameLayout
+                android:layout_width="132dp"
+                android:layout_height="132dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/light_happy_cat_fit" />
+
+                <ImageView
+                    android:id="@+id/profile_image_accessory"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/outfit"
+                    android:text="Your avatar"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:letterSpacing="0" />
+
+                <TextView
+                    android:id="@+id/profile_text_equipped_accessory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/outfit"
+                    android:text="No accessory equipped"
+                    android:textColor="@color/cream_card"
+                    android:alpha="0.86"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/profile_text_coins_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/border_button_cream"
+                    android:fontFamily="@font/outfit"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="7dp"
+                    android:text="0 coins"
+                    android:textColor="@color/cobalt_blue"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/outfit"
+            android:text="Progress"
+            android:textColor="@color/cobalt_blue"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/card_outlined"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/outfit"
+                    android:letterSpacing="0.08"
+                    android:text="LEVEL"
+                    android:textColor="@color/gray_text"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/profile_text_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/outfit"
+                    android:text="1"
+                    android:textColor="@color/cobalt_blue"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/card_outlined"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/outfit"
+                    android:letterSpacing="0.08"
+                    android:text="TOTAL XP"
+                    android:textColor="@color/gray_text"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/profile_text_xp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/outfit"
+                    android:text="0"
+                    android:textColor="@color/cobalt_blue"
+                    android:textSize="28sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="18dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/card_outlined"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/outfit"
+                    android:letterSpacing="0.08"
+                    android:text="STREAK"
+                    android:textColor="@color/gray_text"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/profile_text_streak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/outfit"
+                    android:text="0"
+                    android:textColor="@color/cobalt_blue"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/card_outlined"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="18dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/outfit"
+                    android:letterSpacing="0.08"
+                    android:text="DONE"
+                    android:textColor="@color/gray_text"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/profile_text_completed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/outfit"
+                    android:text="0"
+                    android:textColor="@color/cobalt_blue"
+                    android:textSize="28sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/card_filled"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/outfit"
+                android:text="Accessory shop"
+                android:textColor="@color/cobalt_blue"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/outfit"
+                android:text="Preview any item, then buy and wear one accessory at a time."
+                android:textColor="@color/gray_text"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:id="@+id/profile_layout_accessory_shop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_reset_profile"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/border_button_outline"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/outfit"
+            android:text="Reset progress"
+            android:textAllCaps="false"
+            android:textColor="@color/cobalt_blue"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

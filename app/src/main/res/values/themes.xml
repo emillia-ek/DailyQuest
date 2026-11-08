@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.DailyQuest" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/cobalt_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/cobalt_blue</item>
+        <item name="android:windowBackground">@color/cream_bg</item>
+        <item name="android:statusBarColor">@color/cream_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorSurface">@color/cream_bg</item>
+        <item name="colorSurfaceVariant">@color/cream_card</item>
+        <item name="android:navigationBarColor">@color/cream_bg</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.DailyQuest" parent="Base.Theme.DailyQuest" />
+
+    <style name="Widget_DailyQuest_BottomNav_ActiveIndicator">
+        <item name="android:color">@color/cobalt_blue_light</item>
+        <item name="android:width">44dp</item>
+        <item name="android:height">30dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance_DailyQuest_NavIndicator</item>
+    </style>
+
+    <style name="ShapeAppearance_DailyQuest_NavIndicator" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="TextAppearance_DailyQuest_Nav_Active" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/outfit</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance_DailyQuest_Nav_Inactive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/outfit</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>
