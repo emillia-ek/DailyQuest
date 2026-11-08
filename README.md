@@ -213,7 +213,15 @@ flowchart TD
 | Profile  | `ProfileFragment`      | Sprawdzić profil, monety, akcesoria i zresetować dane.         |
 
 ---
+## Zrzuty ekranu aplikacji
+<img width="290" height="656" alt="z1" src="https://github.com/user-attachments/assets/5e888553-ef82-44d9-9f1d-eca04ebf30aa" />
+<img width="289" height="653" alt="z2" src="https://github.com/user-attachments/assets/e13ab65c-68bb-4fd7-af0a-c20b2fa045a9" />
+<img width="292" height="654" alt="z3" src="https://github.com/user-attachments/assets/3b1cb30d-34d0-429e-affd-8b00a1740b17" />
+<img width="283" height="651" alt="z4" src="https://github.com/user-attachments/assets/be993857-d6f5-45ed-ba8a-69bb92eacb38" />
+<img width="289" height="652" alt="z5" src="https://github.com/user-attachments/assets/bdc2471e-5d3b-4721-afc6-b2fdae57d01c" />
 
+
+___
 <div align="center">
   <img src="app/src/main/res/drawable-nodpi/dark_silly_cat_fit.png" width="130" alt="DailyQuest cat" />
   <p><b>DailyQuest</b><br> Emilia Kościelniak</p>
