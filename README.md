@@ -17,7 +17,7 @@
 
 ## Wygląd aplikacji
 
-DailyQuest ma spokojny, 'graficzny' styl. Interfejs korzysta z kremowego tła, ciemnego tekstu i granatowego koloru jako głównego akcentu. Poniżej są przedstawione główne obrazki i kolory użyte do stworzenia tego projektu.
+DailyQuest ma spokojny, 'graficzny' styl. Interfejs korzysta z kremowego tła, ciemnego tekstu i granatowego koloru jako głównego akcentu. Poniżej są przedstawione główne obrazki i kolory użyte do stworzenia tego projektu. Grafiki  były wykonane własnoręcznie :)
 
 <div>
   <span style="display:inline-block;width:130px;padding:12px;margin:4px;background:#F6F0E4;border:1px solid #EFE6D7;border-radius:8px;color:#232323;">#F6F0E4<br/>cream_bg</span>
